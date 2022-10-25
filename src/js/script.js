@@ -28,7 +28,7 @@ const charVerify = () =>{
 }
 
 const videoStart = ()=>{
-    video.volume = 0.1;
+    video.volume = 0.2;
     video.removeAttribute(muted);
     video.play();
 }
