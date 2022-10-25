@@ -27,12 +27,13 @@ const charVerify = () =>{
 
 }
 
-const setVolume = ()=>{
+const videoStart = ()=>{
     video.volume = 0.1;
+    video.play();
 }
 
 inputs.forEach((input) => input.addEventListener('focus', focusAnimation));
 inputs.forEach((input) => input.addEventListener('focusout', focusAnimationOut));
 inputs.forEach((input) => input.addEventListener('input', charVerify));
 
-setVolume();
+videoStart();
