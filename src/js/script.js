@@ -53,10 +53,6 @@ mute.addEventListener('click', ()=>{
         mute.firstElementChild.src = './src/img/mute.png'
     }
 
-    // if (img.classList.contains('active')){
-    //     video.muted = true;
-    //     mute.firstElementChild.src = './src/img/mute2.png'
-    // } 
 });
 
 window.addEventListener('load', videoStart);
